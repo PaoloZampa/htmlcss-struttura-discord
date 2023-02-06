@@ -35,6 +35,16 @@
     height: 800px;
 }
 
+#app-top-footer{
+    display: flex;
+    background-color: rgb(7, 7, 7);
+    height: 500px;
+}
+
+.bd{
+    border: 2px dashed rgb(255, 0, 0);
+}
+
 /* #nav*/
 
 .flex-nav {
@@ -115,4 +125,26 @@
     margin: 2rem auto;
 }
 
-/* Debug */
+/* #end main-section */
+
+/* footer */
+
+.flex-footer-container {
+    display: flex;
+    background-color: rgb(37, 47, 184);
+    width: 70%;
+    margin: 2rem auto;
+}
+
+.column{
+    display: flex;
+    flex-grow: 2;
+    background-color: aqua;
+}
+
+.column1{
+    display: flex;
+    flex-grow: 1;
+    background-color: rgb(166, 62, 180);
+}
+/* #end footer */
