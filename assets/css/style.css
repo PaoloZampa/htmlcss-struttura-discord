@@ -11,7 +11,12 @@
     display: flex;
 }
 
-/* #nav */
+#app-bot-header{
+    background-color: blue;
+    height: 500px;
+    display: flex;
+}
+/* #nav*/
 
 .flex-nav {
     display: flex;
@@ -50,6 +55,17 @@
     align-items: center;
 }
 
-/* #end-nav */
+/* end#nav */
+
+/* app-bot-header */
+
+.header-container{
+    display: flex;
+    width: 60%;
+    margin: 2rem auto;
+    background-color: rgb(219, 55, 178);
+}
+
+/* #end-app-bot-header */
 
 /* Debug */
