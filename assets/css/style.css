@@ -35,13 +35,19 @@
     height: 800px;
 }
 
-#app-top-footer{
+#app-top-footer {
     display: flex;
     background-color: rgb(7, 7, 7);
     height: 500px;
 }
 
-.bd{
+#app-bot-footer {
+    display: flex;
+    background-color: rgb(153, 192, 46);
+    height: 100px;
+}
+
+.bd {
     border: 2px dashed rgb(255, 0, 0);
 }
 
@@ -136,15 +142,35 @@
     margin: 2rem auto;
 }
 
-.column{
+.column {
     display: flex;
     flex-grow: 2;
     background-color: aqua;
 }
 
-.column1{
+.column1 {
     display: flex;
     flex-grow: 1;
     background-color: rgb(166, 62, 180);
 }
+
+.flex-footer {
+    display: flex;
+    background-color: cornflowerblue;
+    width: 70%;
+    margin: 2rem auto 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-footer {
+    background-color: pink;
+    padding: 0.2rem;
+}
+
+.button {
+    background-color: pink;
+    padding: 0.2rem;
+}
+
 /* #end footer */
